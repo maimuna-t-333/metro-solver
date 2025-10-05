@@ -26,7 +26,7 @@ export default function BrandMarquee() {
       </div>
 
       {/* Tailwind CSS keyframes for marquee */}
-      <style jsx>{`
+      <style>{`
         @keyframes marquee {
           0% { transform: translateX(0%); }
           100% { transform: translateX(-33.333%); }
