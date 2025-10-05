@@ -3,6 +3,7 @@ import Hero from './components/Hero';
 import BrandMarquee from './components/BrandMarquee';
 import OurServices from './components/OurServices';
 import LatestWork from './components/LatestWork';
+import WhyChooseUs from './components/WhyChooseUs';
 
 const MainLayout = () => {
     return (
@@ -11,6 +12,7 @@ const MainLayout = () => {
             <BrandMarquee></BrandMarquee>
             <OurServices></OurServices>
             <LatestWork></LatestWork>
+            <WhyChooseUs></WhyChooseUs>
         </div>
     );
 };
