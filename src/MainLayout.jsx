@@ -5,6 +5,7 @@ import OurServices from './components/OurServices';
 import LatestWork from './components/LatestWork';
 import WhyChooseUs from './components/WhyChooseUs';
 import VideoSection from './components/VideoSection';
+import HowItWorks from './components/HowItWorks';
 
 const MainLayout = () => {
     return (
@@ -15,6 +16,7 @@ const MainLayout = () => {
             <LatestWork></LatestWork>
             <WhyChooseUs></WhyChooseUs>
             <VideoSection></VideoSection>
+            <HowItWorks></HowItWorks>
         </div>
     );
 };
