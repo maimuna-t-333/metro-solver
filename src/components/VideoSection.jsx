@@ -6,7 +6,7 @@ export default function VideoSection() {
 
     <section className="py-20 bg-gradient-to-r from-[#150928] to-[#2b286c] flex justify-center">
       {/* Video container */}
-      <div className="relative w-[900px] h-[500px] rounded-2xl overflow-hidden shadow-2xl bg-black">
+      <div className="relative w-7xl h-[500px] rounded-2xl overflow-hidden shadow-2xl bg-black">
         
         {/* Background video */}
         <video
