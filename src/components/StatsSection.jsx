@@ -3,8 +3,8 @@ import React from "react";
 export default function StatsSection() {
   const stats = [
     { number: "150+", label: "Current Clients" },
-    { number: "250+", label: "Projects Completed" },
-    { number: "50+", label: "Team Members" },
+    { number: "25k+", label: "Projects Completed" },
+    { number: "90+", label: "Metro Solver Teams" },
   ];
 
   return (
