@@ -14,7 +14,7 @@ const Navbar = () => {
     return (
         <div>
             <nav className="px-20 py-4 bg-gradient-to-r from-[#2b286c] to-[#150928] text-white">
-                <ul className="flex gap-10 list-disc list-inside">
+                <ul className="flex gap-20 list-disc list-inside">
                     {links.map((link, index) => (
                         <li key={index} className="hover:underline">
                             <Link to={link.path}>{link.name}</Link>
