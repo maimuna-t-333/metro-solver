@@ -32,10 +32,11 @@ export default function OurServices() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
-            <div key={index} className="bg-gradient-to-r from-[#2b586c]/50 to-[#450928]/20 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow flex flex-col items-center text-center border border-gray-700">
+            <div key={index} className="bg-gradient-to-r from-[#2b586c]/50 to-[#450928]/20 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow flex flex-col  border border-gray-700">
               <div className="text-purple-500 mb-4">{service.icon}</div>
               <h3 className="text-xl text-white font-semibold mb-4">{service.title}</h3>
-              <p className="text-gray-400">{service.description}</p>
+              <p className="text-white">{service.description}</p>
+              <p className="text-purple-400">See more</p>
             </div>
           ))}
         </div>
