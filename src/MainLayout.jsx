@@ -4,6 +4,7 @@ import BrandMarquee from './components/BrandMarquee';
 import OurServices from './components/OurServices';
 import LatestWork from './components/LatestWork';
 import WhyChooseUs from './components/WhyChooseUs';
+import VideoSection from './components/VideoSection';
 
 const MainLayout = () => {
     return (
@@ -13,6 +14,7 @@ const MainLayout = () => {
             <OurServices></OurServices>
             <LatestWork></LatestWork>
             <WhyChooseUs></WhyChooseUs>
+            <VideoSection></VideoSection>
         </div>
     );
 };
