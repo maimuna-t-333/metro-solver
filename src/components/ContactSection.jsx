@@ -3,7 +3,7 @@ import { FaLinkedin, FaFacebook, FaInstagram, FaYoutube, FaTwitter } from "react
 
 export default function ContactSection() {
     return (
-        <section className="bg-gradient-to-b from-[#1a0b2e] to-[#0f051d] text-white py-20 px-6 lg:px-20">
+        <section className="bg-gradient-to-b from-[#1a0b2e] to-[#0f051d] text-white py-20 px-6 lg:px-28">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
 
                 {/* LEFT SIDE */}
