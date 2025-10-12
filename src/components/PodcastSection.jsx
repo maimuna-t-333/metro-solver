@@ -3,7 +3,7 @@ import { Play } from "lucide-react";
 
 export default function PodcastSection() {
   return (
-    <section className="py-20 bg-gradient-to-r from-[#150928] to-[#2b286c]">
+    <section className="py-20 bg-gradient-to-r from-[#2b286c] to-[#150928]">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
         {/* LEFT DIV */}
         <div>

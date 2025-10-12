@@ -15,7 +15,7 @@ L.Icon.Default.mergeOptions({
 export default function MapSection() {
     const position = [51.5074, -0.1278]; 
     return (
-        <section className="bg-[#0f051d] text-white py-20 px-6 lg:px-20">
+        <section className="bg-[#0f051d] text-white py-20 px-6 lg:px-28">
             <div className="relative w-full h-[400px] rounded-2xl overflow-hidden">
                 <MapContainer
                     center={position}
