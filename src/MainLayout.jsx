@@ -8,6 +8,7 @@ import VideoSection from './components/VideoSection';
 import HowItWorks from './components/HowItWorks';
 import StatsSection from './components/StatsSection';
 import ReviewSection from './components/ReviewSection';
+import SuccessStories from './components/SuccessStories';
 
 const MainLayout = () => {
     return (
@@ -21,6 +22,7 @@ const MainLayout = () => {
             <HowItWorks></HowItWorks>
             <StatsSection></StatsSection>
             <ReviewSection></ReviewSection>
+            <SuccessStories></SuccessStories>
         </div>
     );
 };
