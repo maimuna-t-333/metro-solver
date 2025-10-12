@@ -13,6 +13,7 @@ import PodcastSection from './components/PodcastSection';
 import ContactSection from './components/ContactSection';
 import { FAQSection } from './components/FAQSection';
 import MapSection from './components/MapSection';
+import NewsLetter from './components/NewsLetter';
 // import { MapSection } from './components/MapSection';
 
 const MainLayout = () => {
@@ -33,6 +34,7 @@ const MainLayout = () => {
             <FAQSection></FAQSection>
             {/* <MapSection></MapSection> */}
             <MapSection></MapSection>
+            <NewsLetter></NewsLetter>
         </div>
     );
 };
