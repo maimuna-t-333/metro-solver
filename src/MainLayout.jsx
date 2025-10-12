@@ -10,6 +10,7 @@ import StatsSection from './components/StatsSection';
 import ReviewSection from './components/ReviewSection';
 import SuccessStories from './components/SuccessStories';
 import PodcastSection from './components/PodcastSection';
+import ContactSection from './components/ContactSection';
 
 const MainLayout = () => {
     return (
@@ -25,6 +26,7 @@ const MainLayout = () => {
             <ReviewSection></ReviewSection>
             <SuccessStories></SuccessStories>
             <PodcastSection></PodcastSection>
+            <ContactSection></ContactSection>
         </div>
     );
 };
