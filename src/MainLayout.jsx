@@ -12,6 +12,8 @@ import SuccessStories from './components/SuccessStories';
 import PodcastSection from './components/PodcastSection';
 import ContactSection from './components/ContactSection';
 import { FAQSection } from './components/FAQSection';
+import MapSection from './components/MapSection';
+// import { MapSection } from './components/MapSection';
 
 const MainLayout = () => {
     return (
@@ -29,6 +31,8 @@ const MainLayout = () => {
             <PodcastSection></PodcastSection>
             <ContactSection></ContactSection>
             <FAQSection></FAQSection>
+            {/* <MapSection></MapSection> */}
+            <MapSection></MapSection>
         </div>
     );
 };
